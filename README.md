@@ -18,9 +18,6 @@ def max_marks(marks):
     large =marks[-1]
     return(large)
 max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
-
-
-
 ```
 
 ii)	# To find the maximum marks using the list method max().
@@ -32,9 +29,6 @@ def max_marks(list1):
         if i>max1:
             max1=i
     return max1
-
-
-
 ```
 
 iii) # To find the maximum marks without using builtin functions.
@@ -42,10 +36,6 @@ iii) # To find the maximum marks without using builtin functions.
 def max_marks(marks):
     a=max(marks)
     return a
-    
-
-
-
 ``` 
 
 ## Output:
